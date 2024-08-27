@@ -1,6 +1,6 @@
 <?php
 
-class Database {
+class Database { 
 
     // Define the following properties within the Database class
     private $user = 'tricia-mj';
