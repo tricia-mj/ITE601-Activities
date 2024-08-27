@@ -7,6 +7,9 @@ include 'Database.php';
 $database = new Database();
 
 // Call the connect() method and display the connection status 
-echo $database->connect();
+$statusMessage = $database->connect();
+
+// Display the connection status
+echo $statusMessage;
 
 ?>
