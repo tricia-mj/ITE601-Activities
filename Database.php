@@ -11,6 +11,9 @@ class Database {
     // Method that handles the connection to the database
     public function connect() {
 
+        // Creates the connection
+        $conn = new mysqli($this->host, $this->user, $this->password, $this->db);
+
         
     } 
 }
