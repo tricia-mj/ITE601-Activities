@@ -8,26 +8,22 @@ class Payroll {
 	private int $tax = 50;
 	private int $salary = 100;
 
-	public function computeNet() {
+	public function computeNet() : float {
 		$net = $this->salary - $this->tax; 
 		return $net;
 	}
 
-	public function getEmployeeName() {
-		return $this->firstname.",".$this->lastname; 
+	public function getEmployeeName() : string {
+		return $this->firstname.", ".$this->lastname; 
 
 	}
 
-	public function getEmployeeName() {
-		return $this->firstname.",".$this->lastname; 
-
-	}
 
 }
 
+$Payroll = new Payroll();
 
-
-echo "Employee Name: ". $Payroll = new getEmployeeName();
-echo "Net Pay : ". $Payroll = new computeNet();
+echo "Employee Name: ". $Payroll->getEmployeeName() . "<br/>";
+echo "Net Pay : ". $Payroll->computeNet();
 
 ?>
