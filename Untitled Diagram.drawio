@@ -25,6 +25,12 @@
         <mxCell id="PSqn26xiQ-B6X-wPQGtW-7" value="&lt;br&gt;+ getEmployeeName(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="PSqn26xiQ-B6X-wPQGtW-1">
           <mxGeometry y="180" width="220" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="PSqn26xiQ-B6X-wPQGtW-8" value="tax: 50&lt;div&gt;salary: 500&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="53" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PSqn26xiQ-B6X-wPQGtW-9" value="Employee Name: : 50&lt;div&gt;Net: 450&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
